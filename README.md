@@ -138,10 +138,11 @@ D. Enter `0.01` under **mintToken** and put a decimal value under the **tokenId*
 
 **_Need to calculate a hex to decimal value?_**
 
-Open your browser console and paste the following:
+Run the following code in `node`:
 
 ```js
-parseInt('#ff00ff'.replace('#', ''), 16);
+node;
+> parseInt('#ff00ff'.replace('#', ''), 16);
 // Expected output:
 // 16711935
 ```
