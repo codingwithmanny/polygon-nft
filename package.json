@@ -1,0 +1,26 @@
+{
+  "name": "polygon-nft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/codingwithmanny/polygon-nft",
+  "author": "codingwithmanny",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network mumbai",
+    "verify": "npx hardhat verify --network mumbai",
+    "parse": "node scripts/parse.js"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {}
+}
